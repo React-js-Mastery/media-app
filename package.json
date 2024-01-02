@@ -1,18 +1,22 @@
 {
   "name": "media-app",
+  "homepage": "https://react-js-mastery.github.io/media-app/",
   "dependencies": {
+    "nanoid": "4.0.1",
     "react": "18.2.0",
-    "react-dom": "18.2.0",
-    "nanoid": "4.0.1"
+    "react-dom": "18.2.0"
   },
   "devDependencies": {
-    "vite": "latest",
-    "@vitejs/plugin-react": "*"
+    "@vitejs/plugin-react": "*",
+    "gh-pages": "^6.1.1",
+    "vite": "latest"
   },
   "scripts": {
     "start": "vite",
     "dev": "vite",
     "build": "vite build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist", 
     "preview": "vite preview"
   }
 }
