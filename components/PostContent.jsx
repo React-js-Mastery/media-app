@@ -28,7 +28,7 @@ export default function PostContent(props) {
             </p>
           </div>
         </div>
-        <img className="dots-icon" src="/images/icons/dots.svg" />
+        <img className="dots-icon" src="./images/icons/dots.svg" />
       </div>
       <h3 className="post-headline">{mainQuestion}</h3>
       <div className="post-images-and-sub-questions-container">

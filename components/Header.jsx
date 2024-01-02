@@ -4,7 +4,7 @@ export default function Header() {
   return (
     <header>
       <div className="logo-container">
-        <img className="logo-image" src="/images/icons/brain.svg" />
+        <img className="logo-image" src="./images/icons/brain.svg" />
         <h1>CMHQMedia</h1>
       </div>
       <div className="header-links-container">

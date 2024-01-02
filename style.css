@@ -337,37 +337,37 @@ header a {
 }
 
 .home {
-    background-image: url('/images/icons/home.svg');
+    background-image: url('./images/icons/home.svg');
 }
 
 .explore {
-    background-image: url('/images/icons/explore.svg');
+    background-image: url('./images/icons/explore.svg');
 }
 
 .categories {
-    background-image: url('/images/icons/categories.svg');
+    background-image: url('./images/icons/categories.svg');
 }
 
 .favorites {
     background-size: 7% !important;
     background-position: 20% 50% !important;
-    background-image: url('/images/icons/favorites.svg');
+    background-image: url('./images/icons/favorites.svg');
 }
 
 .notifications {
-    background-image: url('/images/icons/notifications.svg');
+    background-image: url('./images/icons/notifications.svg');
 }
 
 .messages {
-    background-image: url('/images/icons/messages.svg');
+    background-image: url('./images/icons/messages.svg');
 }
 
 .profile {
-    background-image: url('/images/icons/profile.svg');
+    background-image: url('./images/icons/profile.svg');
 }
 
 .settings {
-    background-image: url('/images/icons/settings.svg');
+    background-image: url('./images/icons/settings.svg');
 }
 
 /* ----- Right Side Bar ----- */

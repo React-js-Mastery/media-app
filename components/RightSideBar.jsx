@@ -17,7 +17,7 @@ export default function RightSideBar() {
     <div className="right-side-bar">
       <div className="right-side-bar-inner-container">
         <div className="search-container">
-          <img src="/images/icons/search.svg" />
+          <img src="./images/icons/search.svg" />
           <input />
         </div>
         <h3>Trending Debates</h3>
