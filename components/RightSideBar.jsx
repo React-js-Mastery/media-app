@@ -1,5 +1,7 @@
 import React from "react";
 import { nanoid } from "nanoid";
+import searchImg from "../images/icons/search.svg";
+
 
 export default function RightSideBar() {
   const debateElements = [
@@ -17,7 +19,7 @@ export default function RightSideBar() {
     <div className="right-side-bar">
       <div className="right-side-bar-inner-container">
         <div className="search-container">
-          <img src="./images/icons/search.svg" />
+          <img src={searchImg} />
           <input />
         </div>
         <h3>Trending Debates</h3>

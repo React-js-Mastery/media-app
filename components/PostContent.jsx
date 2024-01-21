@@ -1,8 +1,11 @@
 import React from "react";
 import { nanoid } from "nanoid";
+import dotImg from "../images/icons/dots.svg";
+import image1 from "../images/robot.jpg";
+import image2 from "../images/code.jpg";
 
 export default function PostContent(props) {
-  const { image1, image2, mainQuestion, metaData, subQuestions, comments } =
+  const {mainQuestion, metaData, subQuestions, comments } =
     props.data;
   const { userName, timeOfPost, filedUnder, profilePic } = metaData;
 
@@ -28,7 +31,7 @@ export default function PostContent(props) {
             </p>
           </div>
         </div>
-        <img className="dots-icon" src="./images/icons/dots.svg" />
+        <img className="dots-icon" src={dotImg} />
       </div>
       <h3 className="post-headline">{mainQuestion}</h3>
       <div className="post-images-and-sub-questions-container">
